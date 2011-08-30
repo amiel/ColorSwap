@@ -23,6 +23,9 @@
 		130EF5E3140CADB8009E1D9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5E1140CADB8009E1D9F /* InfoPlist.strings */; };
 		130EF5E5140CADB8009E1D9F /* ColorSwapTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5E4140CADB8009E1D9F /* ColorSwapTests.h */; };
 		130EF5E7140CADB8009E1D9F /* ColorSwapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130EF5E6140CADB8009E1D9F /* ColorSwapTests.m */; };
+		130EF5F2140CAF64009E1D9F /* colorswap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5F1140CAF64009E1D9F /* colorswap.gif */; };
+		130EF5F5140CB42F009E1D9F /* Marker.m in Sources */ = {isa = PBXBuildFile; fileRef = 130EF5F4140CB42F009E1D9F /* Marker.m */; };
+		130EF5F6140CB42F009E1D9F /* Marker.m in Sources */ = {isa = PBXBuildFile; fileRef = 130EF5F4140CB42F009E1D9F /* Marker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +43,25 @@
 		130EF5B6140CADB8009E1D9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		130EF5B8140CADB8009E1D9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		130EF5BA140CADB8009E1D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		130EF5BE140CADB8009E1D9F /* ColorSwap-Info.plist */ = {isa = PBXFileReference; path = "ColorSwap-Info.plist"; sourceTree = "<group>"; };
+		130EF5BE140CADB8009E1D9F /* ColorSwap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorSwap-Info.plist"; sourceTree = "<group>"; };
 		130EF5C0140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		130EF5C2140CADB8009E1D9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		130EF5C4140CADB8009E1D9F /* ColorSwap-Prefix.pch */ = {isa = PBXFileReference; path = "ColorSwap-Prefix.pch"; sourceTree = "<group>"; };
-		130EF5C5140CADB8009E1D9F /* ColorSwapAppDelegate.h */ = {isa = PBXFileReference; path = ColorSwapAppDelegate.h; sourceTree = "<group>"; };
+		130EF5C4140CADB8009E1D9F /* ColorSwap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorSwap-Prefix.pch"; sourceTree = "<group>"; };
+		130EF5C5140CADB8009E1D9F /* ColorSwapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSwapAppDelegate.h; sourceTree = "<group>"; };
 		130EF5C6140CADB8009E1D9F /* ColorSwapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSwapAppDelegate.m; sourceTree = "<group>"; };
 		130EF5C9140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		130EF5CB140CADB8009E1D9F /* ColorSwapViewController.h */ = {isa = PBXFileReference; path = ColorSwapViewController.h; sourceTree = "<group>"; };
+		130EF5CB140CADB8009E1D9F /* ColorSwapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSwapViewController.h; sourceTree = "<group>"; };
 		130EF5CC140CADB8009E1D9F /* ColorSwapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSwapViewController.m; sourceTree = "<group>"; };
 		130EF5CF140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ColorSwapViewController.xib; sourceTree = "<group>"; };
 		130EF5D6140CADB8009E1D9F /* ColorSwapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSwapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130EF5D7140CADB8009E1D9F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		130EF5E0140CADB8009E1D9F /* ColorSwapTests-Info.plist */ = {isa = PBXFileReference; path = "ColorSwapTests-Info.plist"; sourceTree = "<group>"; };
+		130EF5E0140CADB8009E1D9F /* ColorSwapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorSwapTests-Info.plist"; sourceTree = "<group>"; };
 		130EF5E2140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		130EF5E4140CADB8009E1D9F /* ColorSwapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSwapTests.h; sourceTree = "<group>"; };
 		130EF5E6140CADB8009E1D9F /* ColorSwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSwapTests.m; sourceTree = "<group>"; };
+		130EF5F1140CAF64009E1D9F /* colorswap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = colorswap.gif; sourceTree = "<group>"; };
+		130EF5F3140CB42F009E1D9F /* Marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marker.h; sourceTree = "<group>"; };
+		130EF5F4140CB42F009E1D9F /* Marker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Marker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 		130EF5A7140CADB7009E1D9F = {
 			isa = PBXGroup;
 			children = (
+				130EF5F0140CAF49009E1D9F /* Resources */,
 				130EF5BC140CADB8009E1D9F /* ColorSwap */,
 				130EF5DE140CADB8009E1D9F /* ColorSwapTests */,
 				130EF5B5140CADB8009E1D9F /* Frameworks */,
@@ -123,6 +130,8 @@
 				130EF5CC140CADB8009E1D9F /* ColorSwapViewController.m */,
 				130EF5CE140CADB8009E1D9F /* ColorSwapViewController.xib */,
 				130EF5BD140CADB8009E1D9F /* Supporting Files */,
+				130EF5F3140CB42F009E1D9F /* Marker.h */,
+				130EF5F4140CB42F009E1D9F /* Marker.m */,
 			);
 			path = ColorSwap;
 			sourceTree = "<group>";
@@ -155,6 +164,14 @@
 				130EF5E1140CADB8009E1D9F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		130EF5F0140CAF49009E1D9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				130EF5F1140CAF64009E1D9F /* colorswap.gif */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +247,7 @@
 				130EF5C1140CADB8009E1D9F /* InfoPlist.strings in Resources */,
 				130EF5CA140CADB8009E1D9F /* MainWindow.xib in Resources */,
 				130EF5D0140CADB8009E1D9F /* ColorSwapViewController.xib in Resources */,
+				130EF5F2140CAF64009E1D9F /* colorswap.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +286,7 @@
 				130EF5C3140CADB8009E1D9F /* main.m in Sources */,
 				130EF5C7140CADB8009E1D9F /* ColorSwapAppDelegate.m in Sources */,
 				130EF5CD140CADB8009E1D9F /* ColorSwapViewController.m in Sources */,
+				130EF5F5140CB42F009E1D9F /* Marker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				130EF5E7140CADB8009E1D9F /* ColorSwapTests.m in Sources */,
+				130EF5F6140CB42F009E1D9F /* Marker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

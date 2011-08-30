@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ColorSwapViewController : UIViewController
+
+@interface ColorSwapViewController : UIViewController {
+    NSArray* markers;
+
+}
+
+@property (nonatomic, retain) NSArray* markers;
 
 @end
