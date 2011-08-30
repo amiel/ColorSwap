@@ -19,6 +19,43 @@
 }
 
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchesBegan:%@ withEvent:", touches);
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+
+//    NSLog(@"touchesMoved:%@ withEvent:", touches);
+
+    if ([touches count] == 1) {
+        UITouch* touch = [touches anyObject];
+        self.center = [touch locationInView:[self superview]];
+    }
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchesEnded:%@ withEvent:", touches);
+}
+
+
+- (void)setColorForIndex:(int)i {
+    UIColor* c;
+    switch (i % 3) {
+        case 0:
+            c = [UIColor greenColor];
+            break;
+        case 1:
+            c = [UIColor yellowColor];
+            break;
+        case 2:
+            c = [UIColor blueColor];
+            break;
+        default:
+            break;
+    }
+    
+    [self setBackgroundColor:c];
+}
 
 
 
