@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130EF5B7140CADB8009E1D9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EF5B6140CADB8009E1D9F /* UIKit.framework */; };
+		130EF5B9140CADB8009E1D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EF5B8140CADB8009E1D9F /* Foundation.framework */; };
+		130EF5BB140CADB8009E1D9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EF5BA140CADB8009E1D9F /* CoreGraphics.framework */; };
+		130EF5C1140CADB8009E1D9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5BF140CADB8009E1D9F /* InfoPlist.strings */; };
+		130EF5C3140CADB8009E1D9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 130EF5C2140CADB8009E1D9F /* main.m */; };
+		130EF5C7140CADB8009E1D9F /* ColorSwapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 130EF5C6140CADB8009E1D9F /* ColorSwapAppDelegate.m */; };
+		130EF5CA140CADB8009E1D9F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5C8140CADB8009E1D9F /* MainWindow.xib */; };
+		130EF5CD140CADB8009E1D9F /* ColorSwapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130EF5CC140CADB8009E1D9F /* ColorSwapViewController.m */; };
+		130EF5D0140CADB8009E1D9F /* ColorSwapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5CE140CADB8009E1D9F /* ColorSwapViewController.xib */; };
+		130EF5D8140CADB8009E1D9F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EF5D7140CADB8009E1D9F /* SenTestingKit.framework */; };
+		130EF5D9140CADB8009E1D9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EF5B6140CADB8009E1D9F /* UIKit.framework */; };
+		130EF5DA140CADB8009E1D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EF5B8140CADB8009E1D9F /* Foundation.framework */; };
+		130EF5DB140CADB8009E1D9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EF5BA140CADB8009E1D9F /* CoreGraphics.framework */; };
+		130EF5E3140CADB8009E1D9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5E1140CADB8009E1D9F /* InfoPlist.strings */; };
+		130EF5E5140CADB8009E1D9F /* ColorSwapTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 130EF5E4140CADB8009E1D9F /* ColorSwapTests.h */; };
+		130EF5E7140CADB8009E1D9F /* ColorSwapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130EF5E6140CADB8009E1D9F /* ColorSwapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		130EF5DC140CADB8009E1D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130EF5A9140CADB7009E1D9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 130EF5B1140CADB8009E1D9F;
+			remoteInfo = ColorSwap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130EF5B2140CADB8009E1D9F /* ColorSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		130EF5B6140CADB8009E1D9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		130EF5B8140CADB8009E1D9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		130EF5BA140CADB8009E1D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		130EF5BE140CADB8009E1D9F /* ColorSwap-Info.plist */ = {isa = PBXFileReference; path = "ColorSwap-Info.plist"; sourceTree = "<group>"; };
+		130EF5C0140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		130EF5C2140CADB8009E1D9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		130EF5C4140CADB8009E1D9F /* ColorSwap-Prefix.pch */ = {isa = PBXFileReference; path = "ColorSwap-Prefix.pch"; sourceTree = "<group>"; };
+		130EF5C5140CADB8009E1D9F /* ColorSwapAppDelegate.h */ = {isa = PBXFileReference; path = ColorSwapAppDelegate.h; sourceTree = "<group>"; };
+		130EF5C6140CADB8009E1D9F /* ColorSwapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSwapAppDelegate.m; sourceTree = "<group>"; };
+		130EF5C9140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		130EF5CB140CADB8009E1D9F /* ColorSwapViewController.h */ = {isa = PBXFileReference; path = ColorSwapViewController.h; sourceTree = "<group>"; };
+		130EF5CC140CADB8009E1D9F /* ColorSwapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSwapViewController.m; sourceTree = "<group>"; };
+		130EF5CF140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ColorSwapViewController.xib; sourceTree = "<group>"; };
+		130EF5D6140CADB8009E1D9F /* ColorSwapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSwapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		130EF5D7140CADB8009E1D9F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		130EF5E0140CADB8009E1D9F /* ColorSwapTests-Info.plist */ = {isa = PBXFileReference; path = "ColorSwapTests-Info.plist"; sourceTree = "<group>"; };
+		130EF5E2140CADB8009E1D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		130EF5E4140CADB8009E1D9F /* ColorSwapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSwapTests.h; sourceTree = "<group>"; };
+		130EF5E6140CADB8009E1D9F /* ColorSwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSwapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130EF5AF140CADB8009E1D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EF5B7140CADB8009E1D9F /* UIKit.framework in Frameworks */,
+				130EF5B9140CADB8009E1D9F /* Foundation.framework in Frameworks */,
+				130EF5BB140CADB8009E1D9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EF5D2140CADB8009E1D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EF5D8140CADB8009E1D9F /* SenTestingKit.framework in Frameworks */,
+				130EF5D9140CADB8009E1D9F /* UIKit.framework in Frameworks */,
+				130EF5DA140CADB8009E1D9F /* Foundation.framework in Frameworks */,
+				130EF5DB140CADB8009E1D9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130EF5A7140CADB7009E1D9F = {
+			isa = PBXGroup;
+			children = (
+				130EF5BC140CADB8009E1D9F /* ColorSwap */,
+				130EF5DE140CADB8009E1D9F /* ColorSwapTests */,
+				130EF5B5140CADB8009E1D9F /* Frameworks */,
+				130EF5B3140CADB8009E1D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		130EF5B3140CADB8009E1D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				130EF5B2140CADB8009E1D9F /* ColorSwap.app */,
+				130EF5D6140CADB8009E1D9F /* ColorSwapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		130EF5B5140CADB8009E1D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130EF5B6140CADB8009E1D9F /* UIKit.framework */,
+				130EF5B8140CADB8009E1D9F /* Foundation.framework */,
+				130EF5BA140CADB8009E1D9F /* CoreGraphics.framework */,
+				130EF5D7140CADB8009E1D9F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		130EF5BC140CADB8009E1D9F /* ColorSwap */ = {
+			isa = PBXGroup;
+			children = (
+				130EF5C5140CADB8009E1D9F /* ColorSwapAppDelegate.h */,
+				130EF5C6140CADB8009E1D9F /* ColorSwapAppDelegate.m */,
+				130EF5C8140CADB8009E1D9F /* MainWindow.xib */,
+				130EF5CB140CADB8009E1D9F /* ColorSwapViewController.h */,
+				130EF5CC140CADB8009E1D9F /* ColorSwapViewController.m */,
+				130EF5CE140CADB8009E1D9F /* ColorSwapViewController.xib */,
+				130EF5BD140CADB8009E1D9F /* Supporting Files */,
+			);
+			path = ColorSwap;
+			sourceTree = "<group>";
+		};
+		130EF5BD140CADB8009E1D9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				130EF5BE140CADB8009E1D9F /* ColorSwap-Info.plist */,
+				130EF5BF140CADB8009E1D9F /* InfoPlist.strings */,
+				130EF5C2140CADB8009E1D9F /* main.m */,
+				130EF5C4140CADB8009E1D9F /* ColorSwap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		130EF5DE140CADB8009E1D9F /* ColorSwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				130EF5E4140CADB8009E1D9F /* ColorSwapTests.h */,
+				130EF5E6140CADB8009E1D9F /* ColorSwapTests.m */,
+				130EF5DF140CADB8009E1D9F /* Supporting Files */,
+			);
+			path = ColorSwapTests;
+			sourceTree = "<group>";
+		};
+		130EF5DF140CADB8009E1D9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				130EF5E0140CADB8009E1D9F /* ColorSwapTests-Info.plist */,
+				130EF5E1140CADB8009E1D9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		130EF5B1140CADB8009E1D9F /* ColorSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130EF5EA140CADB8009E1D9F /* Build configuration list for PBXNativeTarget "ColorSwap" */;
+			buildPhases = (
+				130EF5AE140CADB8009E1D9F /* Sources */,
+				130EF5AF140CADB8009E1D9F /* Frameworks */,
+				130EF5B0140CADB8009E1D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSwap;
+			productName = ColorSwap;
+			productReference = 130EF5B2140CADB8009E1D9F /* ColorSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		130EF5D5140CADB8009E1D9F /* ColorSwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130EF5ED140CADB8009E1D9F /* Build configuration list for PBXNativeTarget "ColorSwapTests" */;
+			buildPhases = (
+				130EF5D1140CADB8009E1D9F /* Sources */,
+				130EF5D2140CADB8009E1D9F /* Frameworks */,
+				130EF5D3140CADB8009E1D9F /* Resources */,
+				130EF5D4140CADB8009E1D9F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130EF5DD140CADB8009E1D9F /* PBXTargetDependency */,
+			);
+			name = ColorSwapTests;
+			productName = ColorSwapTests;
+			productReference = 130EF5D6140CADB8009E1D9F /* ColorSwapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		130EF5A9140CADB7009E1D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Carnes Media";
+			};
+			buildConfigurationList = 130EF5AC140CADB8009E1D9F /* Build configuration list for PBXProject "ColorSwap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 130EF5A7140CADB7009E1D9F;
+			productRefGroup = 130EF5B3140CADB8009E1D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130EF5B1140CADB8009E1D9F /* ColorSwap */,
+				130EF5D5140CADB8009E1D9F /* ColorSwapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		130EF5B0140CADB8009E1D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EF5C1140CADB8009E1D9F /* InfoPlist.strings in Resources */,
+				130EF5CA140CADB8009E1D9F /* MainWindow.xib in Resources */,
+				130EF5D0140CADB8009E1D9F /* ColorSwapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EF5D3140CADB8009E1D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EF5E3140CADB8009E1D9F /* InfoPlist.strings in Resources */,
+				130EF5E5140CADB8009E1D9F /* ColorSwapTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130EF5D4140CADB8009E1D9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130EF5AE140CADB8009E1D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EF5C3140CADB8009E1D9F /* main.m in Sources */,
+				130EF5C7140CADB8009E1D9F /* ColorSwapAppDelegate.m in Sources */,
+				130EF5CD140CADB8009E1D9F /* ColorSwapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EF5D1140CADB8009E1D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EF5E7140CADB8009E1D9F /* ColorSwapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130EF5DD140CADB8009E1D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 130EF5B1140CADB8009E1D9F /* ColorSwap */;
+			targetProxy = 130EF5DC140CADB8009E1D9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		130EF5BF140CADB8009E1D9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130EF5C0140CADB8009E1D9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		130EF5C8140CADB8009E1D9F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130EF5C9140CADB8009E1D9F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		130EF5CE140CADB8009E1D9F /* ColorSwapViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130EF5CF140CADB8009E1D9F /* en */,
+			);
+			name = ColorSwapViewController.xib;
+			sourceTree = "<group>";
+		};
+		130EF5E1140CADB8009E1D9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130EF5E2140CADB8009E1D9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		130EF5E8140CADB8009E1D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		130EF5E9140CADB8009E1D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		130EF5EB140CADB8009E1D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSwap/ColorSwap-Prefix.pch";
+				INFOPLIST_FILE = "ColorSwap/ColorSwap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		130EF5EC140CADB8009E1D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSwap/ColorSwap-Prefix.pch";
+				INFOPLIST_FILE = "ColorSwap/ColorSwap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		130EF5EE140CADB8009E1D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorSwap.app/ColorSwap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSwap/ColorSwap-Prefix.pch";
+				INFOPLIST_FILE = "ColorSwapTests/ColorSwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		130EF5EF140CADB8009E1D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorSwap.app/ColorSwap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSwap/ColorSwap-Prefix.pch";
+				INFOPLIST_FILE = "ColorSwapTests/ColorSwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130EF5AC140CADB8009E1D9F /* Build configuration list for PBXProject "ColorSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130EF5E8140CADB8009E1D9F /* Debug */,
+				130EF5E9140CADB8009E1D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130EF5EA140CADB8009E1D9F /* Build configuration list for PBXNativeTarget "ColorSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130EF5EB140CADB8009E1D9F /* Debug */,
+				130EF5EC140CADB8009E1D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		130EF5ED140CADB8009E1D9F /* Build configuration list for PBXNativeTarget "ColorSwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130EF5EE140CADB8009E1D9F /* Debug */,
+				130EF5EF140CADB8009E1D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 130EF5A9140CADB7009E1D9F /* Project object */;
+}
