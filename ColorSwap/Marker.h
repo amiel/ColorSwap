@@ -10,6 +10,4 @@
 
 @interface Marker : UIView
 
--(void)setColorForIndex:(int)i;
-
 @end

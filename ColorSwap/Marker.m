@@ -10,14 +10,14 @@
 
 @implementation Marker
 
-- (id)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
+
+- (id)init {
+    self = [super initWithFrame:CGRectMake(0, 0, 25, 25)];
     if (self) {
-        // Initialization code
+        [self setBackgroundColor:[UIColor whiteColor]];
     }
     return self;
 }
-
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     NSLog(@"touchesBegan:%@ withEvent:", touches);
@@ -25,36 +25,26 @@
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 
+    int x_origin = 29;
+    int y_origin = 117;
+    int grid_size = 33;
+    
+    
+    
 //    NSLog(@"touchesMoved:%@ withEvent:", touches);
 
     if ([touches count] == 1) {
-        UITouch* touch = [touches anyObject];
-        self.center = [touch locationInView:[self superview]];
+        CGPoint location = [[touches anyObject] locationInView:[self superview]];
+
+        self.center = CGPointMake(
+                                  ((int)location.x / grid_size * grid_size) - 4,
+                                  ((int)location.y / grid_size * grid_size) - 2
+                                );
     }
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     NSLog(@"touchesEnded:%@ withEvent:", touches);
-}
-
-
-- (void)setColorForIndex:(int)i {
-    UIColor* c;
-    switch (i % 3) {
-        case 0:
-            c = [UIColor greenColor];
-            break;
-        case 1:
-            c = [UIColor yellowColor];
-            break;
-        case 2:
-            c = [UIColor blueColor];
-            break;
-        default:
-            break;
-    }
-    
-    [self setBackgroundColor:c];
 }
 
 

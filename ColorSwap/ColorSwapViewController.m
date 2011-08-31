@@ -34,13 +34,22 @@
     Marker* tmpView;
     NSMutableArray* tmpArray = [[NSMutableArray alloc] initWithCapacity:9];
     
+//    29, 117
+//    62, 117
+//    29, 150
+    
+    int x_origin = 29;
+    int y_origin = 117;
+    int grid_size = 33;
     
     for (int i = 0; i < 9; ++i) {
-        tmpView = [[Marker alloc] initWithFrame:CGRectMake(i * 20, i * 20, 25, 25)];
-        [tmpArray addObject:tmpView];
-        [tmpView setColorForIndex:i];
+        tmpView = [[Marker alloc] init];
         
+        [tmpArray addObject:tmpView];        
+                
         [[self view] addSubview:tmpView];
+        tmpView.center = CGPointMake((i * grid_size) + x_origin, y_origin - 20);
+
         [tmpView release];
     }
     
